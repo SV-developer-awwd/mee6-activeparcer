@@ -1,0 +1,14 @@
+{
+  "name": "activeparcer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node script2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
