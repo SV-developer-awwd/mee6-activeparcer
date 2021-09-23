@@ -26,32 +26,3 @@ for (const usersNEWKey in usersNEW) {
 const arr = Object.entries(active)
 arr.sort(([,a],[,b]) => b-a)
 console.log(Object.fromEntries(arr))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-fs.readFile(path.resolve(__dirname, "storage", "old-data.json"), (err, data) => {
-    if (err) return console.error(err);
-
-    const oldD = JSON.parse(data.toString())
-
-    fs.readFile(path.resolve(__dirname, "storage", "new-data.json"), (err, dataNew) => {
-        if (err) return console.error(err);
-
-        const newD = JSON.parse(dataNew.toString())
-
-
-    })
-})
-*/
